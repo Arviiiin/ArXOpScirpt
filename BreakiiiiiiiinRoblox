@@ -42,9 +42,8 @@ local Hammer = Instance.new("TextButton")
 
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Enjoy!", Text = "Made By !Arvin#7777."})
 
-
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ResetOnSpawn=false
+ScreenGui.ResetOnSpawn = false
 
 MainFrame.Name = "Main Frame"
 MainFrame.Parent = ScreenGui
@@ -52,8 +51,8 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 MainFrame.Position = UDim2.new(0.358576596, 0, 0.0388692543, 0)
 MainFrame.Size = UDim2.new(0, 463, 0, 507)
-MainFrame.Active = true
-MainFrame.Draggable = true
+MainFrame.Active=true
+MainFrame.Draggable=true
 
 TextLabel.Parent = MainFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
@@ -247,7 +246,7 @@ Server.Size = UDim2.new(0, 223, 0, 342)
 Heal.Name = "Heal"
 Heal.Parent = Server
 Heal.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-Heal.Position = UDim2.new(0.00291742571, 0, 0.525364935, 0)
+Heal.Position = UDim2.new(0.191258237, 0, 0.466885388, 0)
 Heal.Size = UDim2.new(0, 138, 0, 41)
 Heal.Font = Enum.Font.SourceSans
 Heal.Text = "Heal"
@@ -257,7 +256,7 @@ Heal.TextSize = 25.000
 KillEnemies.Name = "KillEnemies"
 KillEnemies.Parent = Server
 KillEnemies.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-KillEnemies.Position = UDim2.new(0.00256265933, 0, 0.643926501, 0)
+KillEnemies.Position = UDim2.new(0.19090347, 0, 0.629306614, 0)
 KillEnemies.Size = UDim2.new(0, 138, 0, 37)
 KillEnemies.Font = Enum.Font.SourceSans
 KillEnemies.Text = "KillEnemies"
@@ -267,7 +266,7 @@ KillEnemies.TextSize = 25.000
 Cat.Name = "Cat"
 Cat.Parent = Server
 Cat.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-Cat.Position = UDim2.new(0.00256265933, 0, 0.305773377, 0)
+Cat.Position = UDim2.new(0.190903455, 0, 0.314545304, 0)
 Cat.Size = UDim2.new(0, 138, 0, 37)
 Cat.Font = Enum.Font.SourceSans
 Cat.Text = "Cat"
@@ -277,7 +276,7 @@ Cat.TextSize = 25.000
 ToolDrop.Name = "ToolDrop"
 ToolDrop.Parent = Server
 ToolDrop.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-ToolDrop.Position = UDim2.new(0.00256265933, 0, 0.41505304, 0)
+ToolDrop.Position = UDim2.new(0.19090347, 0, 0.786398113, 0)
 ToolDrop.Size = UDim2.new(0, 138, 0, 37)
 ToolDrop.Font = Enum.Font.SourceSans
 ToolDrop.Text = "ToolDrop"
@@ -287,7 +286,7 @@ ToolDrop.TextSize = 25.000
 RemoveTools.Name = "RemoveTools"
 RemoveTools.Parent = Server
 RemoveTools.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-RemoveTools.Position = UDim2.new(0.002562657, 0, 0.195888922, 0)
+RemoveTools.Position = UDim2.new(0.195387781, 0, 0.178345054, 0)
 RemoveTools.Size = UDim2.new(0, 138, 0, 37)
 RemoveTools.Font = Enum.Font.SourceSans
 RemoveTools.Text = "RemoveTools"
@@ -334,7 +333,7 @@ TextLabel_6.TextSize = 30.000
 GamePass.Name = "GamePass"
 GamePass.Parent = MainFrame
 GamePass.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-GamePass.Position = UDim2.new(-0.77537787, 0, 0.763313591, 0)
+GamePass.Position = UDim2.new(-0.777537704, 0, 0.753451705, 0)
 GamePass.Size = UDim2.new(0, 250, 0, 157)
 
 Swat.Name = "Swat"
@@ -359,6 +358,7 @@ Police.TextSize = 25.000
 
 TextLabel_7.Parent = GamePass
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_7.Position = UDim2.new(0, 0, -0.00636942685, 0)
 TextLabel_7.Size = UDim2.new(0, 250, 0, 35)
 TextLabel_7.Font = Enum.Font.SourceSans
 TextLabel_7.Text = "Free GamePass "
@@ -378,7 +378,7 @@ Sword.TextSize = 25.000
 OpenSafe.Name = "OpenSafe"
 OpenSafe.Parent = MainFrame
 OpenSafe.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-OpenSafe.Position = UDim2.new(1.001405, 0, 0.143159628, 0)
+OpenSafe.Position = UDim2.new(1.09427762, 0, 0.109629057, 0)
 OpenSafe.Size = UDim2.new(0, 137, 0, 38)
 OpenSafe.Font = Enum.Font.SourceSans
 OpenSafe.Text = "OpenSafe"
@@ -427,7 +427,7 @@ Hammer.TextSize = 25.000
 
 -- Scripts:
 
-local function TNNMTR_fake_script() -- MainFrame.Toggel 
+local function JKMYHHC_fake_script() -- MainFrame.Toggel 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local Plr = game.Players.LocalPlayer
@@ -447,7 +447,7 @@ local function TNNMTR_fake_script() -- MainFrame.Toggel
 	end)
 	
 end
-coroutine.wrap(TNNMTR_fake_script)()
+coroutine.wrap(JKMYHHC_fake_script)()
 
 Chips.MouseButton1Down:connect(function()
 	game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Chips")
@@ -597,4 +597,3 @@ end)
 Lollipop.MouseButton1Down:connect(function()
 	game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Lollipop")
 end)
-
